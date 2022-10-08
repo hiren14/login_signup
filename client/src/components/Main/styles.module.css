@@ -23,5 +23,50 @@
 	font-weight: bold;
 	font-size: 14px;
 	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+justify-items: center;
 	margin-right: 20px;
+}
+.login_form_container {
+	width: 900px;
+	height: 500px;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+		0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+		justify-content: center;
+}
+.login_container {
+	width: 100%;
+	min-height: 100vh;
+	background-color: #f5f5f5;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+justify-items: center;
+}
+.input {
+	outline: none;
+	border: .10rem soild black;
+	width: 250px;
+	padding: 8px;
+	border-radius: 20px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+	align-items: center;
+	
+}
+.op {
+	outline: none;
+	width: 250px;
+	padding: 8px;
+	border: .25rem soild black;
+	border-radius: 20px;
+	background-color: #edf5f3;
+	margin: 5px 0;
+	font-size: 14px;
+	align-items: center;
 }
